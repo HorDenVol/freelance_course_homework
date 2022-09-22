@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto+Condensed:wght@400;700&display=swap');
+
+@font-face {
+    font-family:"Raylig";
+    src: url(../foonts/RayligAlternateBold.woff2), url("../foonts/RayligAlternateSemibold.woff") format("woff");
+    font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+    font-family:"Raylig";
+    src: url(../foonts/RayligAlternateBold.woff2), url("../foonts/RayligAlternateSemibold.woff") format("woff");
+    font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+    font-family: "Raylig";
+    src: url(../foonts/RayligAlternateBold.woff2), url("../foonts/RayligAlternateSemibold.woff") format("woff");
+    font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+    max-width: 860px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.main_header {
+    padding: 50px;
+}
+.first_primary {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+main>p{
+    padding: 15px;
+}
+main,h1{
+    color:rgb(98, 6, 61);
+    font-weight: 700;
+    font-size: 26px;
+}
+.primary_img {
+}
+.caption__1>span{
+    color:blueviolet;
+    font-weight: 900;
+}
+.read_caption {
+    margin: 10px 0px;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.read_caption:nth-child(2n+1){
+    margin: 10px 0px;
+    background-color:rgba(125, 125, 200, 0.752);
+    font-family: "Raylig";
+    line-height: 30px;
+}
+.caption_head{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: tomato;
+    text-shadow: #FC0 1px 0 10px;
+}
+.caption__1 .caption_head {
+    text-decoration:line-through rgb(5, 39, 101);
+}
+.caption__2 {
+}
+.image_caption {
+    width:100%;
+    margin-left: 12%;
+}
