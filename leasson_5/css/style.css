@@ -3,21 +3,21 @@
 
 @font-face {
     font-family:"Raylig";
-    src: url(../foonts/RayligAlternateBold.woff2), url("../foonts/RayligAlternateSemibold.woff") format("woff");
+    src: url("../foonts/RayligAlternateBold.woff2"), url("../foonts/RayligAlternateSemibold.woff") format("woff");
     font-display: swap;
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
     font-family:"Raylig";
-    src: url(../foonts/RayligAlternateBold.woff2), url("../foonts/RayligAlternateSemibold.woff") format("woff");
+    src: url("../foonts/RayligAlternateBold.woff2"), url("../foonts/RayligAlternateSemibold.woff") format("woff");
     font-display: swap;
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
     font-family: "Raylig";
-    src: url(../foonts/RayligAlternateBold.woff2), url("../foonts/RayligAlternateSemibold.woff") format("woff");
+    src: url("../foonts/RayligAlternateBold.woff2"), url("../foonts/RayligAlternateSemibold.woff") format("woff");
     font-display: swap;
 	font-weight: 900;
 	font-style: normal;
