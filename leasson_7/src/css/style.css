@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+[class*=__container]{
+    max-width: 810px;
+	margin: 0 auto;
+}
+.wrapper {
+    margin: 40px 0px;
+    padding: 0 5px;
+}
+.logo{
+    max-width: 100%;
+}
+
+.nav_menu a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%
+}
+.nav_menu a:not(:first-child){
+margin-left:60px;
+}
+
+.nav_menu{
+    margin: 50px 0px 90px 0px;
+}
+
+.header{
+    margin: 60px 0px;
+}
+
+.main {
+    margin-top:60px ;
+}
+.article span:first-child::before {
+    content: "";
+    background: url("../image/calendar.png") 0 0 no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    
+}
+.article span:first-child::after {
+    content: "|";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left:12px ;
+    
+}
+.article span:first-child{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+.article span:last-child{
+    color: #FF3F3A;
+    font-weight: 700;
+font-size: 16px;
+line-height: 160%;   
+}
+.article{
+    margin-bottom: 32px;
+}
+
+.main_text {
+font-size: 46px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 30px;
+
+}
+.social_content,.social_share{
+    display: inline-block;
+    font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #787A80;
+}
+.social_content span:first-child::before{
+    content: "";
+    background: url("../image/calendar.png") 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.social_content span:nth-child(2)::before{
+    content: "";
+    background: url("../image/clock.png") 0 0 no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    
+}
+.social_content span:nth-child(2){
+  margin-left: 20px;  
+}
+.social_content{
+margin: 40px 0px;
+}
+.social_share{
+    margin-left: 285px;
+}
+.social_share :first-child{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+color:#1E212C;
+}
+.social_share a{
+   margin-left: 13px;
+}
+.main_img{
+    max-width: 100%;
+    margin: 40px 0px;
+}
+.text_bold{
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+margin-bottom: 36px;
+}
+.text_reguliar{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left; 
+    margin-bottom: 36px;
+}
+.rect{
+    background:url("../image/braces.png") 0 0 no-repeat;
+    padding-left: 45px;
+}
+
+.list_text *{
+color:#424551;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+.list_text p{
+   margin:38px 0px;
+}
+.list_text li{
+   margin: 0px 0px 8px 0px;
+}
+.list_text li::before{
+    content: "";
+   background:url("../image/Vector.png") 0 2px no-repeat;
+   display: inline-block;
+   padding-left: 30px;
+min-height: 18px;
+width: 15px;
+}
+
+.a_content{
+    margin: 25px 0px;
+}
+.after_content span:first-child{
+    height: 26px;
+    width: 36px;
+    left: 0px;
+    top: 3px;
+    border-radius: 3px;
+    
+}
+
+.after_content span:not(:first-child){
+    margin-left: 12px;
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition:ease-in 0.3s all;
+}
+.after_content span:not(:first-child):hover{
+    background-color: rgb(164, 162, 159);
+    cursor: pointer;
+}
+
+/* ==================================== */
+
+.line{
+    max-width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.homework{
+    min-height: 100vh;
+    max-width: 100%;
+    background: linear-gradient(to top, rgb(117, 154, 125) 0%,rgb(66, 72, 113) 50%,rgb(0, 0, 0) 100%)
+}
+
+.drop_block {
+    max-height: 600px;
+    width: 100%;
+    padding: 60px 0px;
+    background: url('../image/walp/star_favorite_5754.png') 0 0;
+    background-size: 48px 42px;
+    background-repeat: repeat-y;
+    
+}
+/* /////////////////////////// */
+
+
+.star{
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.823) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#000000;
+    background-size:16px 16px;
+   width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.star_font{
+min-height: 600px;
+max-width: 80%;
+background:url('../image/walp/51376.jpg') 50px 300px no-repeat fixed;
+margin: 0 auto;
+position: relative;
+}
